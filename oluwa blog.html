@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Oluwapixels Photography</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #333;
+      margin: 40px;
+    }
+
+    .profile {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .bio, .details {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 18px;
+      color: #6b705c;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .button {
+      background-color: #6b705c;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #556052;
+    }
+
+    .portfolio {
+      margin-top: 50px;
+    }
+
+    .portfolio h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* 📸 Gallery settings */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    figure img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="profile">
+    <div class="bio">
+      <h1>Oluwa_pixels Photography</h1>
+      <h2>Bio</h2>
+      <p>Photographer recognized by @bbcnewspidgin @nwe @africanheritagecity_ @portraits_mf Wedding page @oluwapixels_weddings. Please NOTE: NO REFUNDS.</p>
+      <button class="button">Request to book</button>
+    </div>
+
+    <div class="details">
+      <h2>Location</h2>
+      <p>Lagos, Nigeria</p>
+
+      <h2>Session Types</h2>
+      <p>Branding, Couples, Family, Fashion, Maternity, Portrait, Product, Wedding</p>
+
+      <h2>Reviews</h2>
+      <p>★★★★★★★ 7.0 (10)</p>
+
+      <h2>Pricing</h2>
+      <p><a href="#">See Pricing Packages</a></p>
+
+      <h2>Add to Favorites</h2>
+      <p>♡ Add to Favorites</p>
+    </div>
+  </div>
+
+  <div class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <figure><img src="IMAGE.jpg" alt=""></figure>
+      <figure><img src="image3.jpg" alt=""></figure>
+      <figure><img src="image6.jpg" alt=""></figure>
+      <figure><img src="image5.jpg" alt=""></figure>
+      <figure><img src="image4.jpg" alt=""></figure>
+      <figure><img src="image2.jpg" alt=""></figure>
+      <figure><img src="image6 (2).jpg" alt=""></figure>
+      <figure><img src="image8.jpg" alt=""></figure>
+      <figure><img src="image9.jpg" alt=""></figure>
+      <figure><img src="photo3.jpg" alt=""></figure>
+    </div>
+  </div>
+</body>
+</html>
